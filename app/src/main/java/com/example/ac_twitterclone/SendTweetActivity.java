@@ -58,7 +58,7 @@ public class SendTweetActivity extends AppCompatActivity implements View.OnClick
                 if (e == null ){
                     FancyToast.makeText(SendTweetActivity.this, ParseUser.
                                     getCurrentUser().getUsername()+  "'s tweet"  + "(" +
-                                    edtSengTweet.getText().toString() + " is saved"
+                                    edtSengTweet.getText().toString() + ") is saved"
                             , FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, true).show();
                 } else {
                     FancyToast.makeText(SendTweetActivity.this, e.getMessage()
